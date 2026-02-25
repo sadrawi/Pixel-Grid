@@ -5,13 +5,7 @@ import plotly.express as px
 
 # st.logo("logo.png")
 
-col01, col02 = st.columns([1,1])
-with col01:
-    st.image("i3L.png")
-
-
-with col02:
-    st.image("SHL.png")
+st.image("i3L.png")
 
 st.title("Pixel Grid Inspector")
 
@@ -129,4 +123,5 @@ if uploaded_file is not None:
         csv,
         "rgb_values.csv",
         "text/csv"
+
     )
