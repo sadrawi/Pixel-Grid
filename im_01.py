@@ -23,8 +23,8 @@ if uploaded_file is not None:
 
     with col1:
         # st.subheader("Start Position")
-        x0 = st.number_input("Start X", 0, width-1, 0, step=1)
-        y0 = st.number_input("Start Y", 0, height-1, 0, step=1)
+        x0 = st.number_input("Start X", 0, width-1, 5, step=1)
+        y0 = st.number_input("Start Y", 0, height-1, 5, step=1)
 
     with col2:
         # st.subheader("Interval")
@@ -125,4 +125,5 @@ if uploaded_file is not None:
         "text/csv"
 
     )
+
 
