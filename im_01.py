@@ -91,7 +91,7 @@ if uploaded_file is not None:
         x=points_x,
         y=points_y,
         mode="markers+text",
-        marker=dict(size=10, color="red"),
+        marker=dict(size=2, color="red"),
         text=marker_numbers,
         textposition="top center",
 
@@ -125,5 +125,6 @@ if uploaded_file is not None:
         "text/csv"
 
     )
+
 
 
