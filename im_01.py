@@ -33,8 +33,8 @@ if uploaded_file is not None:
 
     with col3:
         # st.subheader("Point No")
-        nx = st.number_input("Number of points in X direction", 1, 100, 5)
-        ny = st.number_input("Number of points in Y direction", 1, 100, 5)
+        nx = st.number_input("Number of points in X direction", 1, 100, 1)
+        ny = st.number_input("Number of points in Y direction", 1, 100, 1)
 
 
     # # Base point
@@ -125,3 +125,4 @@ if uploaded_file is not None:
         "text/csv"
 
     )
+
