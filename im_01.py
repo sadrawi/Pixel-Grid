@@ -8,9 +8,9 @@ import plotly.express as px
 st.image("i3L.png")
 
 col00, col01 = st.columns([1,1])
-with col00:
-    st.image("BT v1.png")
 with col01:
+    st.image("BT v1.png")
+with col00:
     st.image("SHL.png")
         
 st.title("Pixel Grid Inspector")
@@ -131,6 +131,7 @@ if uploaded_file is not None:
         "text/csv"
 
     )
+
 
 
 
