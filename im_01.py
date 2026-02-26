@@ -7,7 +7,7 @@ import plotly.express as px
 
 st.image("i3L.png")
 
-col00, col01 = st.columns(2)
+col00, col01 = st.columns([[1,2])
 with col00:
     st.image("BT v1.png")
 with col01:
@@ -131,6 +131,7 @@ if uploaded_file is not None:
         "text/csv"
 
     )
+
 
 
 
